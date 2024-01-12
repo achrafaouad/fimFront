@@ -1,0 +1,19 @@
+
+<div class="toolbar" role="banner">
+  <img
+    width="40"
+    alt="Angular Logo"
+    src="../assets/process.png"
+  />
+  <span>FIM to MOD</span>
+ 
+  <div class="link" routerLink="/multifile" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >Plusieurs fichiers</div>
+ 
+  <div class="link" routerLink="/oneFile" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >Un seul fichier </div>
+  <div class="link" routerLink="/versionsFile" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" >Versions </div>
+</div>
+
+<router-outlet></router-outlet>
+
+
+
